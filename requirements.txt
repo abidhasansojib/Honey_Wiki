@@ -1,0 +1,2 @@
+python-telegram-bot==13.8
+wikipedia==1.4.0
