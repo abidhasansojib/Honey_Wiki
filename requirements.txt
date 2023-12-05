@@ -1,0 +1,4 @@
+Flask==2.2.2
+requests==2.28.1
+telebot==16.0.0
+wikipedia==0.8.14
