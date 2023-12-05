@@ -3,13 +3,13 @@
     {
       "src": "./",
       "use": "python3",
-      "command": "python3 main.py"
+      "command": ""
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/1"
+      "dest": "/\1"
     }
   ],
   "env": {
