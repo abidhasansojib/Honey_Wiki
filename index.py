@@ -8,7 +8,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from wikipedia import Wikipedia
 
 TOKEN = os.getenv("TOKEN")
-URL = os.getenv("URL")
+URL = "https://honey-wiki.vercel.app/"
 bot = Bot(TOKEN)
 wiki = Wikipedia()
 
