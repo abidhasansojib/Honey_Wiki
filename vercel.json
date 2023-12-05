@@ -2,8 +2,7 @@
   "builds": [
     {
       "src": "./",
-      "use": "python3",
-      "command": ""
+      "use": "python3"
     }
   ],
   "routes": [
