@@ -24,7 +24,7 @@ def search(update, context):
 
 def main():
     # Create an instance of the Updater class
-    updater = Updater(token='YOUR_TELEGRAM_BOT_TOKEN', use_context=True)
+    updater = Updater(token='6408793525:AAGrxGWJoWdhNXU7tOjImRab5b5_7a9ivmo', use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
