@@ -1,15 +1,20 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "./index.py",
-            "use": "@vercel/python"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ]
+  "builds": [
+    {
+      "src": "./",
+      "use": "python3",
+      "command": "python3 main.py"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/\1"
+    }
+  ],
+  "env": {
+    "FLASK_ENV": "production",
+    "TOKEN": "${YOUR_TELEGRAM_BOT_TOKEN}",
+    "URL": "${YOUR_VERCEL_URL}"
+  }
 }
